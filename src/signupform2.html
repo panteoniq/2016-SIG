@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>회원 가입</title>
+	<meta charset="utf-8"/>
+</head>
+<style>
+.input {
+    background: #f5f5f5;
+   	font-size: 15px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    border: none;
+    padding: 10px 7px;
+    width: 200px;
+    margin-bottom: 15px;
+    box-shadow: inset 0 2px 3px rgba( 0, 0, 0, 0.1 );
+    clear: both;
+}
+
+.input:focus {
+    background: #fff;
+    box-shadow: 0 0 0 3px #fff38e, inset 0 2px 3px rgba( 0, 0, 0, 0.2 ), 0px 5px 5px rgba( 0, 0, 0, 0.15 );
+    outline: none;
+}
+a{
+	text-decoration:none;
+}
+body 
+{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+	color:black;
+	font-size: 19px;
+}
+
+.button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 15px;
+  padding: 5px;
+  width: 100px;
+  cursor: pointer;
+}
+
+</style>
+<body>
+	<h2>IoT RG 회원 가입</h2>
+	<form method="post" enctype="multipart/form-data" action="signup.php">
+		아이디(최소 4자 최대 15자) :<br/>
+		<input type="text" class="input" name="userid" placeholder="아이디를 입력하세요.."/><br/>
+        핸드폰 번호(- 제외한 숫자만) :<br/>
+		<input type="text" class="input" name="hpnumber" placeholder="01012341234"/><br/>
+		비밀번호(최소 4자 최대 20자) :<br/>
+		<input type="password", class="input" name="pass" placeholder="비밀번호를 입력하세요...."/><br/>
+		비밀번호 확인:<br/>
+		<input type="password", class="input" name="passcon" placeholder="비밀번호를 다시 입력하세요..."/><br/>
+	-------아래 문항들은 선택 사항입니다--------<br><br>
+	
+        이메일 아이디 입력 (abc@def.com일 경우 abc만):<br/>
+		<input type="text", class="input" name="email" placeholder="이메일 아이디를 입력하세요..."/>
+        <select class="pop" name="pop">
+            <option value="gmail">@gmail.com</option>
+        </select><br><br>
+        이메일 비밀번호:<br/>
+		<input type="password", class="input" name="email_pass" placeholder="이메일 비밀번호를 입력하세요..."/><br/>
+        이메일 비밀번호 확인:<br/>
+		<input type="password", class="input" name="email_passcon" placeholder="비밀번호를 다시 입력하세요..."/><br/>
+		<br/>
+		<input type="submit" class="button" value="회원가입"/>
+        <a href="javascript:history.go(-1)" class="button">뒤로가기</a>
+	</form>
+</body>
+</html>
