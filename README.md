@@ -19,7 +19,7 @@ Indicator와 서버의 통신 프로토콜은 다음과 같습니다.<br>
 <img src="./img/protocol4.jpg">
 <img src="./img/protocol5.jpg">
 
-서버의 UI는 다음과 같습니다<br>
+<br>서버의 UI는 다음과 같습니다<br>
 <img src="./img/ui1.jpg">
 <br> 사용자가 등록한 Indicator와 이 Indicator에 등록된 서비스를 보여주는 Indicator 부분과 별도의 Thing, 그리고 전체 서비스를 보여주는 Inventory 부분으로 나뉩니다. 목록에 보이는 동그라미를 클릭하면 아래와 같은 정보가 출력됩니다<br>
 <img src="./img/ui2.jpg">
@@ -28,12 +28,12 @@ Indicator와 서버의 통신 프로토콜은 다음과 같습니다.<br>
 <img src="./img/ui4.jpg">
 <br> 사용자의 디바이스나 Thing은 웹에서 직접 등록할 수도 있으며 Indicator인 경우는 와이파이를 통해 Server에 자동으로 등록할 수도 있습니다<br>
 <img src="./img/ui5.jpg">
+<br> 서비스의 경우 개인이 서비스를 제작할 수 있으며 각각의 Indicator마다 이 서비스를 모듈처럼 설치하는 방식으로 등록이 됩니다.<br>
 <img src="./img/ui6.jpg">
-<br> 서비스의 경우 개인이 서비스를 제작할 수 있으며 각각의 Indicator마다 이 서비스를 모듈처럼 설치하는 방식으로 등록이 됩니다.
 <img src="./img/ui7.jpg">
-<br> 또한 Background Script가 동작하고 있어 서비스가 등록된 이후에는 Indicator의 세션이 도착할 때마다 서비스에 해당하는 기능을 확인한 후 알맞은 결과값을 보내준다(LED 점멸, 부저 출력 등)
+<br> 또한 Background Script가 동작하고 있어 서비스가 등록된 이후에는 Indicator의 세션이 도착할 때마다 서비스에 해당하는 기능을 확인한 후 알맞은 결과값을 보내줍니다(LED 점멸, 부저 출력 등)<br>
 <br><br>
-Indicator의 완성 사진은 다음과 같습니다.<br>
+<br>Indicator의 완성 사진은 다음과 같습니다.<br>
 <img src="./img/indicator1.jpg">
 <img src="./img/indicator2.jpg">
 <img src="./img/indicator3.jpg">
